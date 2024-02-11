@@ -26,3 +26,12 @@
   padding-bottom: 3px;
   border-bottom: 2px solid rgb(255, 230, 0);
 }
+
+.context-loading {
+  position: absolute;
+  inset: 0;
+  background-color: #8b858557;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

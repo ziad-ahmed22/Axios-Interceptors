@@ -4,7 +4,14 @@ const Axios = axios.create({
   baseURL: "http://localhost:9000",
 });
 
-export { Axios };
+const AxiosError = axios.create({
+  baseURL: "http://localhost:9001",
+});
+
+export { Axios, AxiosError };
+
+// json-server --watch db.json --port 9000
+// json-server --watch db.json --port 9001
 
 // =======================================================
 // =======================================================
@@ -27,7 +34,6 @@ export { Axios };
 //   }
 // );
 
-// // =========================
 // // Add a response interceptor
 // Axios.interceptors.response.use(
 //   // if response success
@@ -90,4 +96,4 @@ export { Axios };
 //   }
 // );
 
-// adding interceptors to higher order component to wrap the app
+// // adding interceptors to higher order component to wrap the app

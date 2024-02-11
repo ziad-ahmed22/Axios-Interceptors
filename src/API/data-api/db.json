@@ -1,0 +1,16 @@
+{
+  "posts": [
+    { "id": 1, "title": "title post 1" },
+    { "id": 2, "title": "title post 2" },
+    { "id": 3, "title": "title post 3" },
+    { "id": 4, "title": "title post 4" },
+    { "id": 5, "title": "title post 5" }
+  ],
+  "comments": [
+    { "id": 1, "title": "comment 1" },
+    { "id": 2, "title": "comment 2" },
+    { "id": 3, "title": "comment 3" },
+    { "id": 4, "title": "comment 4" },
+    { "id": 5, "title": "comment 5" }
+  ]
+}
